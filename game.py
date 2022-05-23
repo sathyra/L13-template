@@ -14,9 +14,3 @@ print(SystemInput)
 
 #conditional statement
 
-if(UserInput == SystemInput):
-   print("Game is draw")
-elif (UserInput == 2 and SystemInput == 1) or (UserInput == 1 and SystemInput == 0) or (UserInput == 0 and SystemInput == 2):
-   print("User is the winner")
-else:
-   print("System is winner")
